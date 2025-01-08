@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohara: The City of Dreams</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Body Styling */
+        body {
+            background: linear-gradient(to bottom, #5b98d5, #0d2c62);
+            color: #f1f1f1;
+            line-height: 1.6;
+            font-size: 18px;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            background: rgba(42, 59, 143, 0.9);
+            padding: 1.5rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #4c4c52;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            color: #dde2e2;
+        }
+
+        header nav {
+            display: flex;
+            gap: 2rem;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #ea951f;
+        }
+
+        /* Main Section */
+        main {
+            padding: 3rem 5%;
+        }
+
+        /* Section Styling */
+        section {
+            margin: 2rem 0;
+            padding: 2.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            color: #f4f4f4;
+        }
+
+        section h2 {
+            font-size: 2.4rem;
+            margin-bottom: 1.2rem;
+            color: #e1e8ea;
+        }
+
+        section a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.7rem 1.5rem;
+            background: #32749e;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        section a:hover {
+            background: #1e88e5;
+        }
+
+        /* Team Grid */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .team-member {
+            background: rgba(238, 236, 236, 0.9);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-12px);
+            background: rgba(34, 34, 34, 0.9);
+        }
+
+        .team-member h4 {
+            font-size: 1.8rem;
+            color: #f5a623;
+            margin-bottom: 0.6rem;
+        }
+
+        .team-member p {
+            font-size: 1.1rem;
+            color: #7b3dee;
+        }
+
+        /* Findings from White Paper Section */
+        .findings,
+        .reflection {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .findings h2,
+        .reflection h2 {
+            font-size: 2.4rem;
+            margin-bottom: 1.2rem;
+            color: #e1e8ea;
+        }
+
+        .findings p,
+        .reflection p {
+            font-size: 1.1rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .findings b,
+        .reflection b {
+            color: #f1f1f1;
+        }
+
+        /* Reflection Subheaders */
+        h3 {
+            font-size: 1.6rem;
+            margin-bottom: 0.6rem;
+            color: #f5a623;
+        }
+
+        ol {
+            padding-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.7rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.2rem 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            font-size: 0.9rem;
+            border-top: 2px solid #f5a623;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ohara: City of Dreams</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="teamtopic.html">Business Use Cases</a>
+            <a href="Indreflect.html">Course Reflections</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Team Members</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>Ragahavendra Rao K</h4>
+                    <p>USN: 01FE23BCS073</p>
+                    <p>Role: Traffic Congestion and Routing Specialist</p>
+                </div>
+                <div class="team-member">
+                    <h4>Akshay</h4>
+                    <p>USN: 01FE23BCS099</p>
+                    <p>Role: Emergency Vehicle Routing Lead</p>
+                </div>
+                <div class="team-member">
+                    <h4>K Rohidas S</h4>
+                    <p>USN: 01FE23BCS240</p>
+                    <p>Role: Data Analysis and Algorithm Specialist</p>
+                </div>
+                <div class="team-member">
+                    <h4>Sanath Kumar</h4>
+                    <p>USN: 01FE23BCS0</p>
+                    <p>Role: Project Coordinator and Algorithm Designer</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Problem Space and How It Was Arrived At</h2>
+            <p><b>Ohara: Traffic management has become a pressing issue in cities worldwide due to the rapid increase in the number of vehicles on the roads. This surge leads to common problems such as traffic jams, slow traffic flow, and frequent accidents or breakdowns, all of which cause significant delays and inconvenience. Additionally, safety concerns for pedestrians and cyclists are heightened in congested areas, and the increased vehicle emissions contribute to worsening air pollution. A major challenge in addressing these issues is the lack of real-time data and outdated traffic systems that struggle to meet the demands of modern urban life.</b></p>
+            <p>To tackle these challenges, cities aim to develop efficient traffic management systems that can reduce congestion, improve the flow of vehicles, respond swiftly to incidents, and enhance overall safety. Furthermore, there is a growing need to address environmental concerns by lowering vehicle emissions through better traffic management. By leveraging modern technologies like sensors, cameras, and data analysis, cities can create smarter, more sustainable traffic solutions that lead to quicker, safer, and more eco-friendly travel experiences for everyone.</p>
+        </section>
+
+        <section class="findings">
+            <h2>Findings from White Paper</h2>
+            <p><b>1. Increased Urban Congestion :</b> The white paper highlights that rapid urbanization has led to a significant rise in traffic congestion.</p>
+            <p><b>2. Inefficient Traffic Flow :</b> Many current systems are outdated, causing inefficient vehicle movement.</p>
+            <p><b>3. High Accident Rates :</b> Accidents and breakdowns frequently disrupt traffic, increasing delays.</p>
+            <p><b>4. Emergency Delays:</b> Lack of effective routing for emergency vehicles.</p>
+            <p><b>5. Environmental Impact:</b> High emissions from idling vehicles in congested zones.</p>
+        </section>
+
+        <section class="reflection">
+            <h2>Reflection on City Design</h2>
+            <p>The city design prioritizes smart urban planning with:</p>
+            <p><b>1. Public Transport Efficiency:</b> The design encourages public transport use, but there is a need for more efficient scheduling and routes to reduce overcrowding and delays.</p>
+            <p><b>2. Green Spaces and Pedestrian Access :</b> While there are efforts to create more green spaces, better pedestrian pathways and bike lanes are needed to promote walking and cycling, reducing vehicle usage.</p>
+            <p><b>3. Technology Integration :</b> The use of smart technologies in traffic management is a positive step, but more widespread implementation and real-time data usage are required to fully optimize traffic flow and safety.</p>
+        </section>
+
+        <section>
+            <h2>Key Insights from Research</h2>
+            <h3>Managing Urban Traffic Congestion and Optimizing Traffic Flow</h3>
+            <p>Strategies like adaptive traffic signals and dynamic lane management help reduce congestion and improve traffic flow in busy urban areas.</p>
+
+            <h3>Shortest Path Routing</h3>
+            <p>Implementing advanced routing algorithms can significantly reduce travel time by guiding vehicles through the most efficient routes, alleviating congestion on major roads.</p>
+
+            <h3>Emergency Routing</h3>
+            <p>Drawing from emergency management frameworks, Ohara introduces prioritized routing algorithms for emergency vehicles. This ensures minimal delays in critical situations, potentially saving lives and improving safety standards.</p>
+
+            <h3>Technology Integration</h3>
+            <p>The project incorporates smart solutions such as IoT-enabled traffic lights and AI-driven congestion analysis to enhance overall efficiency and adaptability.</p>
+        </section>
+
+        <section>
+            <h2>Reflection on City Design</h2>
+            <p>The design of <i><b>Ohara</b></i> focuses on providing sustainable and smart solutions. The following areas were identified as primary objectives:</p>
+            <ol>
+                <li><b>Zoning:</b> While zoning helps organize urban spaces, it often leads to traffic bottlenecks due to inadequate routing and signal management, highlighting the need for smarter traffic control systems.</li>
+                <li><b>Connectivity:</b> The integration of transport hubs with residential and commercial areas is a positive aspect, promoting the use of public transport and reducing vehicle dependency. However, further improvements are needed to ensure seamless connectivity and convenience.</li>
+                <li><b>Public Transport and Green Space:</b> There is a growing focus on enhancing public transport and developing green spaces, but more efforts are needed to create pedestrian-friendly environments and encourage alternative modes of transport like cycling.</li>
+                <li><b>Technology-Driven Solutions:</b> Using AI and IoT for smarter, adaptive urban planning.</li>
+                <li><b>Scheduled Public Transportation:</b> Scheduled public transportation focuses on fixed routes and timetables, ensuring reliable and predictable service for passengers.</li>
+                <li><b>Traffic Density Control:</b> Traffic density control optimizes vehicle flow by using dynamic signal timing, lane management, traffic diversion, real-time monitoring, and promoting public transit to reduce congestion and improve mobility.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Problem Definition</h2>
+            <p>The Traffic Management System problem involves addressing the challenges of increasing traffic congestion, inefficient traffic flow, frequent accidents, and environmental impact in urban areas. The goal is to develop a system that efficiently manages vehicle movement, reduces delays, enhances safety, and minimizes pollution. This involves leveraging modern technologies, optimizing traffic signals, improving routing strategies, and integrating public transport to create a seamless, sustainable, and scalable traffic management solution.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ohara City Design. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

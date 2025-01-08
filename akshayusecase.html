@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7fc; /* Light grayish blue background */
+            margin: 0;
+            padding: 0;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+        header {
+            background-color: #007A2F; /* Green background */
+            color: white;
+            padding: 20px 0; /* Adjusted padding for a balanced header */
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(53, 47, 101, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: transform 0.3s ease;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem; /* Larger font size for emphasis */
+            font-weight: 600;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2C6E2F; /* Darker Green */
+            padding: 15px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 30px;
+            font-size: 1.2rem;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+        nav a:hover {
+            background-color: #1a4d26; /* Darker Green Hover */
+            color: #fff;
+            transform: translateY(-4px);
+        }
+        .back-arrow {
+            display: flex;
+            align-items: center;
+            margin: 30px;
+            font-size: 1.3rem;
+        }
+        .back-arrow a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+        }
+        .back-arrow i {
+            margin-right: 10px;
+        }
+        .box {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s ease, box-shadow 0.3s ease;
+        }
+        .box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        h2 {
+            color: #007A2F; /* Green for headings */
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            border-left: 5px solid #007A2F;
+            padding-left: 15px;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin: 15px 0;
+        }
+        .container {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-left: 5px solid #e0f0e0; /* Light green border */
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        .container h2 {
+            margin-top: 0;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #007A2F;
+        }
+        .container p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        /* New Button Style */
+        .btn-green {
+            background-color: #007A2F;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-green:hover {
+            background-color: #1a4d26;
+            transform: scale(1.05);
+        }
+        .btn-green:active {
+            transform: scale(1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SDGs Related to Business Case Studies</h1>
+    </header>
+    
+    <div class="back-arrow">
+        <a href="index.html"><i>&larr;</i> Back to Home</a>
+    </div>
+    
+    <div class="box">
+        <div class="container" id="congestion">
+            <h2> 1) Managing Urban Traffic Congestion and Optimizing Traffic Flow</h2>
+            <p><b>Use:</b> To Anticipate and Mitigate Traffic Jams</p>
+            <p><b>SDG 11:</b> Provide access to safe, affordable, accessible, and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities, and older persons.</p>
+            <p>Traffic congestion significantly impacts urban areas, resulting in delays, excessive fuel consumption, and increased environmental pollution. By predicting congestion patterns, cities can proactively manage traffic flow, improve commuter experiences, and reduce environmental impact.</p>
+            <p><b>SDG 11:</b> Proportion of population that has convenient access to public transport, by sex, age, and persons with disabilities.</p>
+            <p>The primary objective of this use case is to leverage data analysis and predictive algorithms to forecast congestion hotspots. Predictive models, such as machine learning approaches, can analyze historical traffic data, weather conditions, and events to anticipate traffic buildup. Implementing strategies based on congestion predictions allows for adaptive signal control, dynamic rerouting, and better infrastructure planning, leading to smoother traffic flow and improved urban mobility.</p>
+        </div>
+    </div>
+    <div class="box">
+        <h2>Why Addressing Managing Urban Traffic Congestion and Optimizing Traffic Flow Is Necessary</h2>
+        <ul>
+            <li>Addressing urban traffic congestion is essential due to its significant economic, environmental, and social impacts. Congestion leads to productivity loss, higher fuel consumption, increased emissions, and health risks. Efficient traffic management improves urban mobility, reduces environmental pollution, enhances public safety, and aligns with sustainable development goals. By optimizing traffic flow, cities can create more livable environments, ensure equitable access to transportation, and support economic growth and sustainability.</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Problems Arising Without Efficient Managing Urban Traffic Congestion and Optimizing Traffic Flow</h2>
+        <ul>
+            <li><strong>Increased Travel Time:</strong> Problem: Traffic congestion leads to longer travel times for commuters. Impact: Reduces productivity as more time is spent in transit rather than on productive activities or leisure.</li>
+            <li><strong>Environmental Pollution:</strong> Problem: Congested traffic leads to higher emissions from vehicles. Impact: Contributes to air pollution, increasing greenhouse gas emissions and negatively affecting public health.</li>
+            <li><strong>Emergency Delays:</strong> Emergency response times for ambulances, fire trucks, and police are affected when they get stuck in traffic.</li>
+            <li><strong>Increased Mortality and Damage:</strong> Delays in emergency responses can result in higher mortality rates for critical patients, greater property damage during fires, and compromised public safety during police emergencies.</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Other Problems Solved If Addressed</h2>
+        <ul>
+            <li><strong>Reduced Air Pollution:</strong> Solution: Smoother traffic flow decreases vehicle emissions, improving air quality.</li>
+            <li><strong>Economic Efficiency:</strong> Solution: Optimized traffic reduces fuel and time costs, boosting productivity and economic growth.</li>
+            <li><strong>Enhanced Public Transport:</strong> Solution: Reliable traffic flow improves public transit efficiency, encouraging usage.</li>
+            <li><strong>Smart City Integration:</strong> Traffic management systems can be integrated with other smart city features like smart parking, IoT-enabled streetlights, and predictive policing.</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Algorithms to Emergency Vehicle Routing</h2>
+        <p>Several advanced algorithms can optimize Emergency Vehicle Routing, and each has distinct applications. These include:</p>
+        <ul>
+            <li><strong>Dijkstra’s Algorithm</strong></li>
+            <li><strong>Bellman-Ford Algorithm</strong></li>
+            <li><strong>Floyd-Warshall Algorithm</strong></li>
+            <li><strong>Adaptive Traffic Signal Control (ATSC)</strong></li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2> 2) Shortest Path Routing</h2>
+        <p><b>Use:</b> To ensure emergency vehicles reach the destination quickly</p>
+        <p><b>SDG 11:</b> Provide access to safe, affordable, accessible, and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities, and older persons.</p>
+    </div>
+    <div class="box">
+        <h2>Why Addressing Shortest Path Routing Is Necessary</h2>
+        <p>Congestion prediction is crucial for shortest path routing as it helps avoid delays caused by dynamic factors like accidents and traffic peaks. By considering real-time conditions, it ensures the chosen route is not just the shortest, but the fastest, optimizing travel time and reducing congestion..</p>
+    </div>
+    
+    <div class="box">
+        <h2>Problems Arising Without Shortest Path Routing</h2>
+        <ul>
+            <li><strong>Increased Travel Time :</strong> Drivers may take longer routes due to the absence of optimal path selection, leading to delays.</li>
+            <li><strong>Higher Fuel Consumption :</strong>Longer routes result in increased fuel usage, contributing to higher costs and environmental impact.</li>
+            <li><strong>Traffic Congestion :</strong>  Inefficient routing can lead to more vehicles on congested roads, exacerbating traffic jams</li>
+            <li><strong>Inefficient Resource Use :</strong> Roads and infrastructure may be underutilized while others are overloaded, leading to imbalanced traffic distribution.</li>
+            <li><strong>Reduced Urban Livability:</strong> Persistent traffic problems make a city less appealing to live, work, or invest in.</li>
+        </ul>
+    </div>
+    
+    <div class="box">
+        <h2>Other Problems Solved If Addressed</h2>
+        <ul>
+            <li><strong>Reduced Traffic Congestion :</strong> Optimized routing helps distribute traffic more evenly across the network, reducing congestion in high-traffic areas and improving overall flow.</li>
+            <li><strong>Improved Road Safety :</strong> By avoiding traffic bottlenecks and high-risk accident-prone zones, routing can reduce the chances of accidents and improve safety for drivers and pedestrians.</li>
+            <li><strong>Cost Savings for Users :</strong> Shorter, optimized routes save fuel and time, reducing overall travel costs for individuals and businesses.</li>
+            <li><strong>Sustainability:</strong>Efficient routing reduces fuel consumption, contributing to lower greenhouse gas emissions and helping to meet environmental goals.</li>
+            <li><strong>Smart City Integration:</strong> Traffic management systems can be integrated with other smart city features like smart parking, IoT-enabled streetlights, and predictive policing.</li>
+        </ul>
+    </div>
+    
+    <div class="box">
+        <h2>Algorithms to Shortest Path Routing</h2>
+        <p>Several advanced algorithms can optimize Congestion Prediction, and each has distinct applications. These include:</p>
+        <ul>
+            <li><strong>Dijsktra's Algorithm</strong></li>
+            <li><strong>A (A-Star) Algorithm</strong></li>
+            <li><strong>Bellman-Ford Algorithm</strong></li>
+            <li><strong>Bidirectional Search</strong></li>
+        </ul>
+    </div>
+     </div>
+    </body>
+    </html>
+</body>
+</html>

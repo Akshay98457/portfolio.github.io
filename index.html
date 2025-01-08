@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithms Course Overview - Akshay J</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #f4f6f9, #dfe6e9); /* Soft gradient background */
+            margin: 0;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 25px 40px;
+            text-align: left;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            letter-spacing: 1px;
+        }
+
+        header nav {
+            margin-top: 12px;
+        }
+
+        header nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: #3498db;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #bdc3c7;
+        }
+
+        section h2 {
+            font-size: 2em;
+            border-left: 5px solid #3498db;
+            padding-left: 12px;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        section p, section ul {
+            line-height: 1.7;
+        }
+
+        section ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        /* Grid Container for Cards */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+        }
+
+        .card h3 {
+            font-size: 1.7em;
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+
+        .card ol {
+            padding-left: 20px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 8px;
+            font-size: 1em;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Exploring Algorithms with Akshay J</h1>
+        <nav>
+            <a href="projectov.html">Projects</a>
+            <a href="teamtopic.html">Business Case Studies</a>
+            <a href="Indreflect.html">Reflections</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Overview of the Course</h2>
+            <p>The "Design and Analysis of Algorithms" course dives into the principles of algorithm design and data structures. From foundational concepts like recursion and complexity to advanced structures such as AVL Trees and Red-Black Trees, it covers practical and theoretical aspects essential for solving real-world problems.</p>
+        </section>
+
+        <section>
+            <h2>Key Learnings</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Linear Structures</h3>
+                    <ol>
+                        <li>Arrays</li>
+                        <li>Stacks</li>
+                        <li>Queues</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Tree Structures</h3>
+                    <ol>
+                        <li>Binary Search Trees</li>
+                        <li>AVL Trees</li>
+                        <li>Red-Black Trees</li>
+                        <li>Tries</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Graph Representations</h3>
+                    <ol>
+                        <li>Adjacency Matrix</li>
+                        <li>Adjacency List</li>
+                        <li>Directed and Undirected Graphs</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Sorting Techniques</h3>
+                    <ol>
+                        <li>Bubble Sort</li>
+                        <li>Merge Sort</li>
+                        <li>Quick Sort</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Dynamic Programming</h3>
+                    <ol>
+                        <li>Longest Common Subsequence</li>
+                        <li>0/1 Knapsack Problem</li>
+                        <li>Matrix Chain Multiplication</li>
+                        <li>Floyd-Warshall Algorithm</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>Greedy Algorithms</h3>
+                    <ol>
+                        <li>Huffman Encoding</li>
+                        <li>Prim's Algorithm</li>
+                        <li>Kruskal's Algorithm</li>
+                        <li>Activity Selection</li>
+                    </ol>
+                </div>
+                <div class="card">
+                    <h3>String Algorithms</h3>
+                    <ol>
+                        <li>KMP Algorithm</li>
+                        <li>Rabin-Karp Algorithm</li>
+                        <li>Boyer-Moore Algorithm</li>
+                        <li>Suffix Arrays</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Applications in the Real World</h2>
+            <p>Algorithms are not just theoretical constructs; they have real-world applications in diverse fields, such as:</p>
+            <ul>
+                <li><strong>Smart Cities:</strong> Optimizing transportation systems with Dijkstra's algorithm.</li>
+                <li><strong>Data Management:</strong> Enhancing database performance with sorting techniques.</li>
+                <li><strong>Problem Solving:</strong> Tackling logistics challenges using dynamic programming.</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Follow Akshay Jalawadi online:</p>
+        <p>
+            <a herf="@"target="_blank">All rights reserved</a> |
+            <a href="https://www.linkedin.com/in/akshay-jalawadi-1214522ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/Akshay98457" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
